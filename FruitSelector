@@ -1,0 +1,15 @@
+def main():
+  print("Are you ready to choose the best fruit?")
+  answer = input("Yes or No? (Y/N)")
+  if lower(answer) == "y":
+    print("Okay!")
+    answer2 = input("Choose: Banana (B), Orange (O), Apple (A), Other (Ot)")
+    while answer2 != "B":
+      print("Okay.")
+      answer2 = input("Choose: Banana (B), Orange (O), Apple (A), Other (Ot)")
+    print("That's right!")
+  else:
+    print("Okay.")
+
+if __name__ == "__main__":
+  main()
